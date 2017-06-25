@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	font-family: 'Bubbler One', sans-serif;
+	background: #202020;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+header {
+	background-color: rgb(40, 150, 175);
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding-top: 5px;
+}
+
+h3 {
+	padding-bottom: 5px;
+}
+
+button {
+	border: 0;
+	height: 30px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(40, 150, 175);
+	text-transform: uppercase;
+	font-weight: 500;
+	outline: none;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+button:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(40, 150, 175);
+
+}
+
+footer {
+	width:100%;
+	position: fixed;
+	bottom: 0px;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#color-display {
+	text-transform: uppercase;
+}
+
+#control-bar {
+	height: 30px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(40, 150, 175);
+	text-align: center;
+}
+
+#game-message {
+	display: inline-block;
+	width: 20%;
+	font-size: 1.3em;
+}
+
+.selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(40, 150, 175);
+}
+
+.color-square {
+	width: 30%;
+	padding-top: 30%;
+	margin: 1.66%;
+	float: left;
+	background-color: green;
+	border-radius: 10%;
+	transition: background-color 0.4s;
+	-webkit-transition: background-color 0.4s;
+	-moz-transition: background-color 0.4s;
+}
+
+#credit a {
+	text-align: right;
+	text-decoration: none;
+	font-size: 90%;
+	color: rgb(80, 80, 80);
+	float: right;
+	padding-right: 10px;
+	max-width: 100px;
+	max-height: 100px;
+}
